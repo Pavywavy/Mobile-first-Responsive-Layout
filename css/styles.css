@@ -1,7 +1,26 @@
+.main-nav {
+    list-style-type: none;
+}
 
+
+/* Media queries */
 
 @media screen and (min-width:768px) {
-    
+    .container {
+        display: flex;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-nav {
+        display: flex;
+        width: auto;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
