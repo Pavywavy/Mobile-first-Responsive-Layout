@@ -10,6 +10,10 @@
     margin: 0 auto;
     text-align: center;
     font-family: Roboto, "Times New Roman";
+
+}
+header p {
+    font-size: 1rem;
 }
 
 .portfolioSection {
@@ -33,6 +37,26 @@ p {
     margin: 0 auto;
 }
 
+.mainFooter div {
+    border-bottom: 1px solid black;
+    margin: 1em auto;
+}
+
+.footerNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.footerNav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+}
 
 /* Media queries */
 
