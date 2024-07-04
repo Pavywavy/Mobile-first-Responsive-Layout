@@ -2,12 +2,36 @@
     list-style-type: none;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 0 auto;
+}
+
+.portfolioSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2, h3, p {
+    text-align: center;
+}
+
+header img {
+    width: 0 auto;
+}
 
 /* Media queries */
 
 @media screen and (min-width:768px) {
     .container {
         display: flex;
+    }
+
+    .portfolioSection img {
+        display: flex;
+        width: 1vh;
     }
 
     header {
@@ -24,5 +48,8 @@
 }
 
 @media screen and (min-width: 1024px) {
-
+    .portfolioSection {
+        display:flex;
+        flex-wrap:wrap;
+    }
 }
