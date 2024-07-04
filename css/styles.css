@@ -1,3 +1,7 @@
+header {
+    margin: 0 auto;
+}
+
 .main-nav {
     display: flex;
     justify-content: space-between;
@@ -14,14 +18,11 @@ main {
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
     text-align: center;
     font-family: Roboto, "Times New Roman";
-
 }
+
+
 header p {
     font-size: 1rem;
 }
@@ -47,9 +48,8 @@ p {
     text-align: center;
 }
 
-.container, img {
-    width: 90%;
-    max-width: 100vh;
+.container img {
+    width: 250px;
     margin: 0 auto;
 }
 
@@ -90,6 +90,28 @@ p {
 /* Media queries */
 
 @media screen and (min-width:768px) {
+    .main-nav {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .portfolioSection {
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+
+    .portfolioSection div {
+        width: 50vh;
+    }
+
+    .portfolioSection p {
+        max-width: 10x;
+        font-size: 16px;
+    }
+
 
 
 }
