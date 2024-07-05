@@ -13,8 +13,9 @@ header {
     font-weight: 500;
 }
 
+
 main {
-    border-bottom: 1px solid black;
+    border-bottom: .25px solid black;
 }
 
 .container {
@@ -75,8 +76,7 @@ p {
     flex-direction: row;
     justify-content: space-between;
     font-weight: bold;
-    padding: 0;
-    margin: 0;
+
 }
 
 .footerNav a {
@@ -90,10 +90,21 @@ p {
 /* Media queries */
 
 @media screen and (min-width:768px) {
+
+    .container {
+        width:90%;
+        margin:0 auto;
+    }
+
     .main-nav {
         display:flex;
         flex-direction: row;
         justify-content: space-evenly;
+    }
+
+    .mainHeader div {
+        display: flex;
+        flex-direction: row-reverse;
     }
 
     .portfolioSection {
