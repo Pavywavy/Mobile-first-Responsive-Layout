@@ -1,5 +1,12 @@
 header {
     margin: 0 auto;
+    text-align: center;
+    font-family: Roboto, "Times New Roman";
+}
+
+header img {
+    width: 250px;
+    margin: 0 auto;
 }
 
 .main-nav {
@@ -13,10 +20,6 @@ header {
     font-weight: 500;
 }
 
-
-main {
-    border-bottom: .25px solid black;
-}
 
 .container {
     text-align: center;
@@ -58,7 +61,7 @@ p {
 .contactSection {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 2rem;
 }
 
@@ -71,12 +74,16 @@ p {
     margin: 1em auto;
 }
 
+footer {
+    border-top: .25px solid black;
+    font-family: Roboto, "Times New Roman";
+}
+
 .footerNav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-weight: bold;
-
 }
 
 .footerNav a {
@@ -91,6 +98,10 @@ p {
 
 @media screen and (min-width:768px) {
 
+    .main-nav li{
+        font-size:15px;
+    }
+
     .container {
         width:90%;
         margin:0 auto;
@@ -99,12 +110,19 @@ p {
     .main-nav {
         display:flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
+        gap:10%;
     }
 
     .mainHeader div {
         display: flex;
         flex-direction: row-reverse;
+        width: 69%;
+        margin: 0 auto;
+    }
+
+    .mainheader p {
+        padding-right:10%;
     }
 
     .portfolioSection {
