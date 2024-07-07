@@ -47,6 +47,12 @@ header p {
     justify-content: space-around;
 }
 
+h1 {
+    color:blueviolet;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 h2 {
     font-weight: 500;
