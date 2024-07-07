@@ -77,6 +77,24 @@ p {
 }
 
 
+
+.listOfSkills ul {
+    font-family: Roboto, "Times New Roman";
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 1em;
+    text-align: center;
+    border-bottom: solid black .25px;
+    padding: 0;
+}
+
+.listOfSkills ul li {
+    margin: 1em 0;
+}
+
+
 .contactSection {
     display: flex;
     flex-direction: column;
