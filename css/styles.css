@@ -38,7 +38,7 @@ header p {
 .portfolioSection {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
@@ -123,18 +123,27 @@ footer {
         margin:0 auto;
     }
 
+    .container img {
+        width: 100%;
+    }
     .main-nav {
         display:flex;
         flex-direction: row;
         justify-content: center;
-        gap:10%;
+        gap: 10%;
     }
 
     .container .personalSection {
         display: flex;
         flex-direction: row-reverse;
-        width: 69%;
-        margin: 0 auto;
+    }
+
+    .personalSection {
+        margin-bottom: 5rem;
+    }
+
+    .personalSection img {
+        width: 300px;
     }
 
     .mainheader p {
@@ -145,18 +154,25 @@ footer {
         display: flex;
         flex-direction: row;
         flex-wrap:wrap;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .portfolioSection div {
-        width: 50vh;
-        margin-bottom: 5%;
+        width: 60vh;
     }
 
     .portfolioSection p {
         max-width: 10x;
         font-size: 16px;
     }
+
+    .personalSection p {
+        font-size: 20px;
+        text-align: left;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    
 
     .contactSection {
         display: flex;
@@ -174,7 +190,7 @@ footer {
     .footerNav nav {
         display: flex;
         justify-content: space-between;
-        gap:1rem;
+        gap: 1rem;
         text-decoration: none;
         list-style-type: none;
     }
