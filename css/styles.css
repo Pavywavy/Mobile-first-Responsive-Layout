@@ -157,8 +157,8 @@ footer {
     }
 
     .portfolioSection div {
-        width: 62vh;
-        max-width: 63vh;
+        width: 43vw;
+        max-width: 43vw;
     }
 
     .portfolioSection p {
@@ -233,7 +233,7 @@ footer {
         }
 
         .portfolioSection div {
-            width: 55vh;
-            max-width: 55vh;
+            width: 42vw;
+            max-width: 42vw;
         }
 }
