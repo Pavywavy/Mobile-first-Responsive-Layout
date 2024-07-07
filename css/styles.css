@@ -18,6 +18,13 @@ header img {
     padding: 0;
     font-size: 25px;
     font-weight: 500;
+
+}
+
+.main-nav a {
+    text-decoration: none;
+    color:black;
+    font-weight: 300;
 }
 
 .mainHeader {
@@ -187,6 +194,10 @@ footer {
         margin: 1rem 0;
     }
     
+
+    .footerNav {
+        padding: 1em;
+    }
     .footerNav nav {
         display: flex;
         justify-content: space-between;
