@@ -161,9 +161,14 @@ footer {
     .contactSection {
         display: flex;
         flex-direction: column;
-        justify-content:space-between;
-        margin: 10px 0;
+        justify-content:space-evenly;
+        gap: 1rem;
+        margin-bottom: 3rem;
         padding: 0 20%;
+    }
+
+    .contactSection p {
+        margin: 1rem 0;
     }
     
     .footerNav nav {
