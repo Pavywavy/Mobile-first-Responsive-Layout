@@ -106,9 +106,6 @@ p {
     font-weight:100;
 }
 
-.mainFooter div {
-    margin-right: 0 auto;
-}
 
 footer {
     border-top: .25px solid black;
@@ -193,14 +190,12 @@ footer {
     }
 
     .portfolioSection p {
-        max-width: 10x;
         font-size: 16px;
     }
 
     .personalSection p {
         font-size: 20px;
         text-align: left;
-        margin: 0 auto;
         padding-left: 0;
     }
     
@@ -246,7 +241,6 @@ footer {
         }
         .main-nav {
             align-items: center;
-            margin-left: 0 auto;
         }
 
         .container {
@@ -256,6 +250,7 @@ footer {
 
         .personalSection p {
             font-size: 28px;
+            margin: 0 auto;
             padding-right: 6rem;
         }
 
